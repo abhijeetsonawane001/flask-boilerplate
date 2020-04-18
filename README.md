@@ -1,3 +1,3 @@
-# Flask Boilerplate Application
+# Flask Boilerplate
 ----
-Basic Flask Application to bootstrap any flask app.
+Basic Flask Boilerplate to start flask app.
