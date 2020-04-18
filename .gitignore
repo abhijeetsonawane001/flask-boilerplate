@@ -16,3 +16,5 @@ htmlcov
 
 # Keep .gitkeep it git history to keep track of empty directory  
 !.gitkeep        
+
+app/migration/*
