@@ -1,11 +1,11 @@
 # Python official image
 FROM python:3.7.4
 
-# Copy requirments file
-COPY requirments.txt requirments.txt
+# Copy requirements file
+COPY requirements.txt requirements.txt
 
 # Run pip install and ignore 
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy current app to image it contains flask app package
 COPY . /usr/src/app
